@@ -1,0 +1,149 @@
+# WordPress Core
+index.php
+license.txt
+readme.html
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config.php
+wp-config-sample.php
+wp-content/
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+
+# WordPress Content (except for version-controlled items)
+wp-content/plugins/
+wp-content/themes/
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+
+# Keep version-controlled themes and plugins
+!wp-content/themes/your-theme-name/
+!wp-content/plugins/your-custom-plugin/
+
+# WordPress Database
+*.sql
+*.sql.gz
+*.sql.zip
+
+# WordPress Logs
+debug.log
+php_errorlog
+
+# WordPress Backup Files
+wp-config-backup*
+wp-config.bak
+wp-config.temp
+wp-config.txt
+wp-config.old
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.development
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Composer
+vendor/
+composer.phar
+composer.lock
+
+# Git
+.git/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Logs
+logs/
+*.log
+
+# Cache
+cache/
+*.cache
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Keep specific plugins needed for headless setup
+!wp-content/plugins/wp-graphql/
+!wp-content/plugins/wpgraphql-acf/
+!wp-content/plugins/wpgraphql-jwt-authentication/
+!wp-content/plugins/custom-post-type-ui/
+!wp-content/plugins/advanced-custom-fields/
+!wp-content/plugins/wp-gatsby/
+
+# Keep mu-plugins if you have custom ones
+wp-content/mu-plugins/
+!wp-content/mu-plugins/your-mu-plugin.php
+
+# Keep specific themes if needed
+!wp-content/themes/headless-theme/
+
+# Ignore WordPress core updates
+wp-admin/
+wp-includes/
+
+# Ignore default themes
+wp-content/themes/twenty*/
+wp-content/themes/classic/
+
+# Ignore plugin files that might be generated
+wp-content/plugins/hello.php
+
+# Database backup files
+*.sql
+*.sql.gz
+backup/
+backups/
+
+# SSL certificates (if stored locally)
+*.key
+*.crt
+*.pem
+
+# Local development tools
+.local
+.vagrant
+*.vagrant
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Keep your custom ACF JSON files if using version control
+# wp-content/themes/your-theme/acf-json/
+# Uncomment and adjust if you want to version control ACF field groups
+# !wp-content/themes/your-theme/acf-json/
+
+# Ignore WordPress salts and keys (should be in environment variables)
+# These should be in your wp-config.php but not version controlled
+wp-config.php

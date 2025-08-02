@@ -1,0 +1,92 @@
+Term Name,Parent,Child,Description
+Liturgical Life,,Liturgy,Main category for liturgical practices and events.
+,Liturgical Life,Divine Liturgy,The central Eucharistic service of the Orthodox Church.
+,Liturgical Life,Vespers,Evening prayer service held in the Orthodox tradition.
+,Liturgical Life,Matins,Morning prayer service typically said before the Divine Liturgy.
+,Liturgical Life,Compline,Nighttime prayer service, often the last of the daily offices.
+,Liturgical Life,Sacraments,Subcategory under Liturgical Life for the seven sacraments of the Church.
+,Liturgical Life,Festal Cycle,Subcategory under Liturgical Life for major feast days and seasons.
+Liturgy,Liturgical Life,,Subcategory under Liturgical Life for various types of liturgical services.
+Divine Liturgy,Liturgy,,The central Eucharistic service of the Orthodox Church.
+Vespers,Liturgy,,Evening prayer service held in the Orthodox tradition.
+Matins,Liturgy,,Morning prayer service typically said before the Divine Liturgy.
+Compline,Liturgy,,Nighttime prayer service, often the last of the daily offices.
+Sacraments,Liturgical Life,,Subcategory under Liturgical Life for the seven sacraments of the Church.
+Baptism,Sacraments,,The first sacrament, symbolizing the washing away of sin.
+Chrismation,Sacraments,,The sacrament of confirmation, performed after baptism.
+Eucharist,Sacraments,,The sacrament of Holy Communion, the body and blood of Christ.
+Confession,Sacraments,,The sacrament of repentance and reconciliation with God.
+Anointing of the Sick,Sacraments,,The sacrament of healing and comfort for the ill.
+Marriage,Sacraments,,The sacrament of union between a man and a woman in the Church.
+Ordination,Sacraments,,The sacrament of consecration of a priest or deacon.
+Festal Cycle,Liturgical Life,,Subcategory under Liturgical Life for major feast days and seasons.
+Great Lent,Festal Cycle,,The most solemn period of fasting and prayer before Pascha.
+Pascha (Easter),Festal Cycle,,The celebration of the Resurrection of Christ.
+Theophany,Festal Cycle,,Celebrates the revelation of Christ as the Son of God.
+Dormition,Festal Cycle,,The Feast of the Falling Asleep of the Theotokos.
+Nativity,Festal Cycle,,Celebrates the birth of Jesus Christ.
+Spiritual Formation,,Prayer,Main category for spiritual growth and development.
+,spiritual Formation,Jesus Prayer,A short prayer used in Orthodox Christian spiritual practice.
+,spiritual Formation,Rule of Prayer,A structured schedule of prayers and psalms for daily use.
+,spiritual Formation,Prayer of St. Ephraim,A traditional prayer used in the morning and evening offices.
+,spiritual Formation,Mystagogy,Subcategory under Spiritual Formation for deeper understanding of the mysteries of the faith.
+,spiritual Formation,Catechism,Teaching of the basic doctrines of the Orthodox faith.
+,spiritual Formation,Faith Formation,Educational programs for children and adults in the faith.
+,spiritual Formation,Bible Study,Study of Scripture within the context of Orthodox tradition.
+,spiritual Formation,Asceticism,Subcategory under Spiritual Formation for disciplines of self-control and spiritual growth.
+,spiritual Formation,Fasting,Abstinence from food and other pleasures for spiritual purification.
+,spiritual Formation,Silence,Practice of quietness to foster inner stillness and prayer.
+,spiritual Formation,Humility,Spiritual virtue of recognizing one's dependence on God.
+Community Life,,Youth Ministry,Main category for parish and group activities.
+,Community Life,Youth Ministry,Subcategory under Community Life for youth-related programs.
+,Sunday School,Youth Ministry,Religious education for children on Sundays.
+,Youth Group,Youth Ministry,Activities and meetings for young people in the parish.
+,Retreats,Youth Ministry,Spiritual retreats for youth and families.
+,Women’s Ministry,Community Life,Subcategory under Community Life for women’s programs.
+,Bible Study,Women’s Ministry,Group study of Scripture for women.
+,Prayer Groups,Women’s Ministry,Regular prayer meetings for women.
+,Outreach,Women’s Ministry,Service and outreach initiatives led by women.
+,Men’s Ministry,Community Life,Subcategory under Community Life for men’s programs.
+,Fellowship,Men’s Ministry,Social and spiritual gatherings for men.
+,Leadership,Men’s Ministry,Training and development for men in leadership roles.
+,Service,Men’s Ministry,Volunteer and service opportunities for men.
+,Senior Ministry,Community Life,Subcategory under Community Life for senior members.
+,Pastoral Care,Senior Ministry,Support and care for elderly and homebound members.
+,Home Visits,Senior Ministry,Visits to members who are unable to attend services.
+,Social Events,Senior Ministry,Events and gatherings for seniors.
+Parish Activities,,Events,Main category for general parish events and activities.
+,Events,Parish Activities,Subcategory under Parish Activities for specific event types.
+,Services,Events,General services such as Masses and special liturgies.
+,Weddings,Events,Marriage ceremonies celebrated in the Church.
+,Funerals,Events,Rituals for the deceased in the Orthodox tradition.
+,Special Masses,Events,Masses held for specific occasions or intentions.
+,Fundraising,Parish Activities,Subcategory under Parish Activities for financial support efforts.
+,Church Bazaars,Fundraising,Fundraising events at the church.
+,Benefit Concerts,Fundraising,Musical events for fundraising purposes.
+,Donations,Fundraising,Encouragement of giving to the parish.
+,Volunteer Opportunities,Parish Activities,Subcategory under Parish Activities for volunteer roles.
+,Ushers,Volunteer Opportunities,Volunteers who assist during services.
+,Altar Servers,Volunteer Opportunities,Volunteers who serve at the altar during liturgies.
+,Hospitality,Volunteer Opportunities,Volunteer work involving welcoming and serving guests.
+Theological & Doctrinal Topics,,Dogma,Main category for doctrinal and theological content.
+,Dogma,Theological & Doctrinal Topics,Subcategory under Theological & Doctrinal Topics for core beliefs.
+,Holy Trinity,Dogma,Belief in the three persons of God: Father, Son, and Holy Spirit.
+,Incarnation,Dogma,The belief that God became human in the person of Jesus Christ.
+,Resurrection,Dogma,The belief in the bodily resurrection of Christ and all believers.
+,Patristics,Theological & Doctrinal Topics,Subcategory under Theological & Doctrinal Topics for teachings of the Church Fathers.
+,St. John Chrysostom,Patristics,One of the most influential early Church Fathers.
+,St. Basil the Great,Patristics,A key theologian and bishop of the early Church.
+,St. Gregory Palamas,Patristics,A 14th-century theologian known for his writings on the hesychast tradition.
+,Cannon Law,Theological & Doctrinal Topics,Subcategory under Theological & Doctrinal Topics for church regulations.
+,Church Regulations,Cannon Law,Rules governing the operation of the parish and clergy.
+,Clergy Roles,Cannon Law,Responsibilities and duties of priests, bishops, and deacons.
+,Parish Governance,Cannon Law,Structure and management of the parish community.
+Cultural & Historical Context,,Antiochian Heritage,Main category for historical and cultural aspects of the Antiochian Orthodox Church.
+,Antiochian Heritage,Cultural & Historical Context,Subcategory under Cultural & Historical Context for the history and traditions of the Antiochian Archeparchy.
+,History of the Antiochian Archeparchy,Antiochian Heritage,Historical background of the Antiochian Orthodox Church.
+,Iconography,Antiochian Heritage,Study and veneration of holy icons in the Orthodox tradition.
+,Sacred Music,Antiochian Heritage,Traditional music used in worship and liturgical settings.
+,Orthodox Identity,Cultural & Historical Context,Subcategory under Cultural & Historical Context for the identity and values of the Orthodox Church.
+,Ecumenical Relations,Orthodox Identity,Relationships with other Christian denominations.
+,Interfaith Dialogue,Orthodox Identity,Engagement with other religious traditions.
+,Ecumenical Patriarchate,Orthodox Identity,The spiritual center of the Orthodox world.

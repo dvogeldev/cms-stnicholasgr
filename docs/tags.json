@@ -1,0 +1,462 @@
+{
+  "name": "tags",
+  "label": "Tags",
+  "description": "Hierarchical tags for organizing content related to liturgical life, spiritual formation, community activities, and theological topics in an Antiochian Orthodox parish.",
+  "singular_name": "Tag",
+  "plural_name": "Tags",
+  "slug": "tags",
+  "hierarchical": true,
+  "show_in_rest": true,
+  "show_admin_column": true,
+  "query_var": true,
+  "rewrite": {
+    "slug": "tags"
+  },
+  "taxonomies": [],
+  "meta_box": "normal",
+  "admin_column": true,
+  "show_in_quick_edit": true,
+  "show_ui": true,
+  "show_tagcloud": false,
+  "show_in_nav_menus": true,
+  "show_in_menu": true,
+  "show_in_sidebar": true,
+  "show_in_rest": true,
+  "rest_base": "tags",
+  "rest_controller_class": "WP_REST_Terms_Controller",
+  "public": true,
+  "default_term": "",
+  "object_type": ["post"],
+  "terms": [
+    {
+      "name": "Liturgical Life",
+      "description": "Main category for liturgical practices and events.",
+      "parent": 0
+    },
+    {
+      "name": "Liturgy",
+      "description": "Subcategory under Liturgical Life for various types of liturgical services.",
+      "parent": 1
+    },
+    {
+      "name": "Divine Liturgy",
+      "description": "The central Eucharistic service of the Orthodox Church.",
+      "parent": 2
+    },
+    {
+      "name": "Vespers",
+      "description": "Evening prayer service held in the Orthodox tradition.",
+      "parent": 2
+    },
+    {
+      "name": "Matins",
+      "description": "Morning prayer service typically said before the Divine Liturgy.",
+      "parent": 2
+    },
+    {
+      "name": "Compline",
+      "description": "Nighttime prayer service, often the last of the daily offices.",
+      "parent": 2
+    },
+    {
+      "name": "Sacraments",
+      "description": "Subcategory under Liturgical Life for the seven sacraments of the Church.",
+      "parent": 1
+    },
+    {
+      "name": "Baptism",
+      "description": "The first sacrament, symbolizing the washing away of sin.",
+      "parent": 7
+    },
+    {
+      "name": "Chrismation",
+      "description": "The sacrament of confirmation, performed after baptism.",
+      "parent": 7
+    },
+    {
+      "name": "Eucharist",
+      "description": "The sacrament of Holy Communion, the body and blood of Christ.",
+      "parent": 7
+    },
+    {
+      "name": "Confession",
+      "description": "The sacrament of repentance and reconciliation with God.",
+      "parent": 7
+    },
+    {
+      "name": "Anointing of the Sick",
+      "description": "The sacrament of healing and comfort for the ill.",
+      "parent": 7
+    },
+    {
+      "name": "Marriage",
+      "description": "The sacrament of union between a man and a woman in the Church.",
+      "parent": 7
+    },
+    {
+      "name": "Ordination",
+      "description": "The sacrament of consecration of a priest or deacon.",
+      "parent": 7
+    },
+    {
+      "name": "Festal Cycle",
+      "description": "Subcategory under Liturgical Life for major feast days and seasons.",
+      "parent": 1
+    },
+    {
+      "name": "Great Lent",
+      "description": "The most solemn period of fasting and prayer before Pascha.",
+      "parent": 13
+    },
+    {
+      "name": "Pascha (Easter)",
+      "description": "The celebration of the Resurrection of Christ.",
+      "parent": 13
+    },
+    {
+      "name": "Theophany",
+      "description": "Celebrates the revelation of Christ as the Son of God.",
+      "parent": 13
+    },
+    {
+      "name": "Dormition",
+      "description": "The Feast of the Falling Asleep of the Theotokos.",
+      "parent": 13
+    },
+    {
+      "name": "Nativity",
+      "description": "Celebrates the birth of Jesus Christ.",
+      "parent": 13
+    },
+    {
+      "name": "Spiritual Formation",
+      "description": "Main category for spiritual growth and development.",
+      "parent": 0
+    },
+    {
+      "name": "Prayer",
+      "description": "Subcategory under Spiritual Formation for various forms of prayer.",
+      "parent": 15
+    },
+    {
+      "name": "Jesus Prayer",
+      "description": "A short prayer used in Orthodox Christian spiritual practice.",
+      "parent": 17
+    },
+    {
+      "name": "Rule of Prayer",
+      "description": "A structured schedule of prayers and psalms for daily use.",
+      "parent": 17
+    },
+    {
+      "name": "Prayer of St. Ephraim",
+      "description": "A traditional prayer used in the morning and evening offices.",
+      "parent": 17
+    },
+    {
+      "name": "Mystagogy",
+      "description": "Subcategory under Spiritual Formation for deeper understanding of the mysteries of the faith.",
+      "parent": 15
+    },
+    {
+      "name": "Catechism",
+      "description": "Teaching of the basic doctrines of the Orthodox faith.",
+      "parent": 19
+    },
+    {
+      "name": "Faith Formation",
+      "description": "Educational programs for children and adults in the faith.",
+      "parent": 19
+    },
+    {
+      "name": "Bible Study",
+      "description": "Study of Scripture within the context of Orthodox tradition.",
+      "parent": 19
+    },
+    {
+      "name": "Asceticism",
+      "description": "Subcategory under Spiritual Formation for disciplines of self-control and spiritual growth.",
+      "parent": 15
+    },
+    {
+      "name": "Fasting",
+      "description": "Abstinence from food and other pleasures for spiritual purification.",
+      "parent": 21
+    },
+    {
+      "name": "Silence",
+      "description": "Practice of quietness to foster inner stillness and prayer.",
+      "parent": 21
+    },
+    {
+      "name": "Humility",
+      "description": "Spiritual virtue of recognizing one's dependence on God.",
+      "parent": 21
+    },
+    {
+      "name": "Community Life",
+      "description": "Main category for parish and group activities.",
+      "parent": 0
+    },
+    {
+      "name": "Youth Ministry",
+      "description": "Subcategory under Community Life for youth-related programs.",
+      "parent": 23
+    },
+    {
+      "name": "Sunday School",
+      "description": "Religious education for children on Sundays.",
+      "parent": 24
+    },
+    {
+      "name": "Youth Group",
+      "description": "Activities and meetings for young people in the parish.",
+      "parent": 24
+    },
+    {
+      "name": "Retreats",
+      "description": "Spiritual retreats for youth and families.",
+      "parent": 24
+    },
+    {
+      "name": "Women’s Ministry",
+      "description": "Subcategory under Community Life for women’s programs.",
+      "parent": 23
+    },
+    {
+      "name": "Bible Study",
+      "description": "Group study of Scripture for women.",
+      "parent": 26
+    },
+    {
+      "name": "Prayer Groups",
+      "description": "Regular prayer meetings for women.",
+      "parent": 26
+    },
+    {
+      "name": "Outreach",
+      "description": "Service and outreach initiatives led by women.",
+      "parent": 26
+    },
+    {
+      "name": "Men’s Ministry",
+      "description": "Subcategory under Community Life for men’s programs.",
+      "parent": 23
+    },
+    {
+      "name": "Fellowship",
+      "description": "Social and spiritual gatherings for men.",
+      "parent": 28
+    },
+    {
+      "name": "Leadership",
+      "description": "Training and development for men in leadership roles.",
+      "parent": 28
+    },
+    {
+      "name": "Service",
+      "description": "Volunteer and service opportunities for men.",
+      "parent": 28
+    },
+    {
+      "name": "Senior Ministry",
+      "description": "Subcategory under Community Life for senior members.",
+      "parent": 23
+    },
+    {
+      "name": "Pastoral Care",
+      "description": "Support and care for elderly and homebound members.",
+      "parent": 30
+    },
+    {
+      "name": "Home Visits",
+      "description": "Visits to members who are unable to attend services.",
+      "parent": 30
+    },
+    {
+      "name": "Social Events",
+      "description": "Events and gatherings for seniors.",
+      "parent": 30
+    },
+    {
+      "name": "Parish Activities",
+      "description": "Main category for general parish events and activities.",
+      "parent": 0
+    },
+    {
+      "name": "Events",
+      "description": "Subcategory under Parish Activities for specific event types.",
+      "parent": 32
+    },
+    {
+      "name": "Services",
+      "description": "General services such as Masses and special liturgies.",
+      "parent": 33
+    },
+    {
+      "name": "Weddings",
+      "description": "Marriage ceremonies celebrated in the Church.",
+      "parent": 33
+    },
+    {
+      "name": "Funerals",
+      "description": "Rituals for the deceased in the Orthodox tradition.",
+      "parent": 33
+    },
+    {
+      "name": "Special Masses",
+      "description": "Masses held for specific occasions or intentions.",
+      "parent": 33
+    },
+    {
+      "name": "Fundraising",
+      "description": "Subcategory under Parish Activities for financial support efforts.",
+      "parent": 32
+    },
+    {
+      "name": "Church Bazaars",
+      "description": "Fundraising events at the church.",
+      "parent": 35
+    },
+    {
+      "name": "Benefit Concerts",
+      "description": "Musical events for fundraising purposes.",
+      "parent": 35
+    },
+    {
+      "name": "Donations",
+      "description": "Encouragement of giving to the parish.",
+      "parent": 35
+    },
+    {
+      "name": "Volunteer Opportunities",
+      "description": "Subcategory under Parish Activities for volunteer roles.",
+      "parent": 32
+    },
+    {
+      "name": "Ushers",
+      "description": "Volunteers who assist during services.",
+      "parent": 37
+    },
+    {
+      "name": "Altar Servers",
+      "description": "Volunteers who serve at the altar during liturgies.",
+      "parent": 37
+    },
+    {
+      "name": "Hospitality",
+      "description": "Volunteer work involving welcoming and serving guests.",
+      "parent": 37
+    },
+    {
+      "name": "Theological & Doctrinal Topics",
+      "description": "Main category for doctrinal and theological content.",
+      "parent": 0
+    },
+    {
+      "name": "Dogma",
+      "description": "Subcategory under Theological & Doctrinal Topics for core beliefs.",
+      "parent": 39
+    },
+    {
+      "name": "Holy Trinity",
+      "description": "Belief in the three persons of God: Father, Son, and Holy Spirit.",
+      "parent": 40
+    },
+    {
+      "name": "Incarnation",
+      "description": "The belief that God became human in the person of Jesus Christ.",
+      "parent": 40
+    },
+    {
+      "name": "Resurrection",
+      "description": "The belief in the bodily resurrection of Christ and all believers.",
+      "parent": 40
+    },
+    {
+      "name": "Patristics",
+      "description": "Subcategory under Theological & Doctrinal Topics for teachings of the Church Fathers.",
+      "parent": 39
+    },
+    {
+      "name": "St. John Chrysostom",
+      "description": "One of the most influential early Church Fathers.",
+      "parent": 42
+    },
+    {
+      "name": "St. Basil the Great",
+      "description": "A key theologian and bishop of the early Church.",
+      "parent": 42
+    },
+    {
+      "name": "St. Gregory Palamas",
+      "description": "A 14th-century theologian known for his writings on the hesychast tradition.",
+      "parent": 42
+    },
+    {
+      "name": "Canon Law",
+      "description": "Subcategory under Theological & Doctrinal Topics for church regulations.",
+      "parent": 39
+    },
+    {
+      "name": "Church Regulations",
+      "description": "Rules governing the operation of the parish and clergy.",
+      "parent": 44
+    },
+    {
+      "name": "Clergy Roles",
+      "description": "Responsibilities and duties of priests, bishops, and deacons.",
+      "parent": 44
+    },
+    {
+      "name": "Parish Governance",
+      "description": "Structure and management of the parish community.",
+      "parent": 44
+    },
+    {
+      "name": "Cultural & Historical Context",
+      "description": "Main category for historical and cultural aspects of the Antiochian Orthodox Church.",
+      "parent": 0
+    },
+    {
+      "name": "Antiochian Heritage",
+      "description": "Subcategory under Cultural & Historical Context for the history and traditions of the Antiochian Archeparchy.",
+      "parent": 46
+    },
+    {
+      "name": "History of the Antiochian Archeparchy",
+      "description": "Historical background of the Antiochian Orthodox Church.",
+      "parent": 47
+    },
+    {
+      "name": "Iconography",
+      "description": "Study and veneration of holy icons in the Orthodox tradition.",
+      "parent": 47
+    },
+    {
+      "name": "Sacred Music",
+      "description": "Traditional music used in worship and liturgical settings.",
+      "parent": 47
+    },
+    {
+      "name": "Orthodox Identity",
+      "description": "Subcategory under Cultural & Historical Context for the identity and values of the Orthodox Church.",
+      "parent": 46
+    },
+    {
+      "name": "Ecumenical Relations",
+      "description": "Relationships with other Christian denominations.",
+      "parent": 49
+    },
+    {
+      "name": "Interfaith Dialogue",
+      "description": "Engagement with other religious traditions.",
+      "parent": 49
+    },
+    {
+      "name": "Ecumenical Patriarchate",
+      "description": "The spiritual center of the Orthodox world.",
+      "parent": 49
+    }
+  ]
+}

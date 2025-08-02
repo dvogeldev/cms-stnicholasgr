@@ -1,0 +1,40 @@
+# flyctl launch added from .ddev/.gitignore
+#ddev-generated: Automatically generated ddev .gitignore.
+# You can remove the above line if you want to edit and maintain this file yourself.
+.ddev/.gitignore
+
+.ddev/**/*.example
+.ddev/.dbimageBuild
+.ddev/.ddev-docker-*.yaml
+.ddev/.*downloads
+.ddev/.homeadditions
+.ddev/.importdb*
+.ddev/.sshimageBuild
+.ddev/.webimageBuild
+.ddev/apache/apache-site.conf
+.ddev/commands/.gitattributes
+.ddev/config.local.y*ml
+.ddev/config.*.local.y*ml
+.ddev/db_snapshots
+.ddev/mutagen/mutagen.yml
+.ddev/mutagen/.start-synced
+.ddev/nginx_full/nginx-site.conf
+.ddev/postgres/postgresql.conf
+.ddev/providers/acquia.yaml
+.ddev/providers/lagoon.yaml
+.ddev/providers/pantheon.yaml
+.ddev/providers/platform.yaml
+.ddev/providers/upsun.yaml
+.ddev/sequelpro.spf
+.ddev/traefik/config/cms.stnicholasgr.yaml
+.ddev/traefik/certs/cms.stnicholasgr.crt
+.ddev/traefik/certs/cms.stnicholasgr.key
+.ddev/xhprof/xhprof_prepend.php
+.ddev/**/README.*
+
+# flyctl launch added from wp-content/plugins/all-in-one-seo-pack-pro/vendor/jwhennessey/phpinsight/.gitignore
+wp-content/plugins/all-in-one-seo-pack-pro/vendor/jwhennessey/phpinsight/**/.DS_Store
+
+# flyctl launch added from wp-content/uploads/2025/07/wp-content/plugins/all-in-one-seo-pack-pro/vendor/jwhennessey/phpinsight/.gitignore
+wp-content/uploads/2025/07/wp-content/plugins/all-in-one-seo-pack-pro/vendor/jwhennessey/phpinsight/**/.DS_Store
+fly.toml
